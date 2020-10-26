@@ -1,122 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link
+    <head>
+			<meta charset="UTF-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+			<title>LD Dev</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+			<meta name="keywords" content="developer, ruby on rails, ruby, full stack, react, javascript" />
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+			<link rel="shortcut icon" href="../favicon.ico"> 
+			<link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;700&display=swap"
       rel="stylesheet"
       crossorigin="anonymous"
     />
-    <script
-      src="https://kit.fontawesome.com/ad0c4e912f.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Lucas Portfolio</title>
-  </head>
-  <body>
-    <div class="fixed">
-      <div class="inside"></div>
-      <di class="buttons">
-        <button>PROJECTS</button>
-        <button>ABOUT</button>
-        <button>CONTACT</button>
-      </di>
+			<link rel="stylesheet" type="text/css" href="css/demo.css" />
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+	
+    <body>
+        <div class="container">
+		
+			 			
+			<div class="st-container">
+			
+				<input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+				<a href="#st-panel-1">LOGO</a>
+				<input type="radio" name="radio-set" id="st-control-2"/>
+				<a href="#st-panel-2">ABOUT</a>
+				<input type="radio" name="radio-set" id="st-control-3"/>
+				<a href="#st-panel-3">SKILLS</a>
+				<input type="radio" name="radio-set" id="st-control-4"/>
+				<a href="#st-panel-4">PROJECTS</a>
+				<input type="radio" name="radio-set" id="st-control-5"/>
+				<a href="#st-panel-5">CONTACT</a>
+				
+				<div class="st-scroll">				
+						
+					<section class="st-panel st-color-1" id="st-panel-1">
+						<span>Hey there!</span>
+						<div class="rect-m"></div>
+						<div class="rect-s"></div>
+						<div class="rect-l"></div>
+						<h3>I'm</h3>
+						<h2>Lucas Delbel</h2>
+						<p>a Full Stack Web Developer</p>
+						<img class="logo" src="images/logo1.png" alt="logo">
+					</section>
+					
+					<section class="st-panel st-color-2" id="st-panel-2">
+						
+						<div class="st-panel-2__div">
+
+						  <div class="st-panel-2__div__line">
+								<i class="fas fa-graduation-cap"></i>
+								<span> Full Stack Web Development - <a href="https://www.microverse.org/">Microverse School</a> 2020</span>
+							</div>	
+						  <p class="text1"> I'm a software engineer focused in building solutions using readable,
+								reliable, flexible and efficient code. I enjoy to collaborate with a team and love 
+								pair programming, with which I've been working for the last months.</p>
+
+							<p class="text2"> I have previous experience in business consulting and entrepeneurship, where
+								I could understand the problems companies usually have. I decided to look for the skills to
+								solve them, and fell in love with software development in the process.</p>
+
+							<div class="triangle"></div>
+							<div class="resume-div"><a href="#">Resume</a></div>
+							<div class="resume-triangle"></div>
+							<div class="social-links">
+								<a class="icon" href="#"><i class="fab fa-github"></i></a>
+								<a class="icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+								<a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+								<a class="icon" href="#"><i class="fab fa-medium-m"></i></a>
+							</div>
+						</div>
+
+						<img class="frame" src="images/frame.png" alt="frame">
+						<img class="self" src="images/eu-azul-sem-fundo.png" alt="frame">
+					</section>
+					
+					<section class="st-panel st-color-1" id="st-panel-3">
+						<div class="st-panel-3">
+							<div class="st-panel-3__skills">
+								<h1>Languages and Frameworks</h1>
+								<span><i class="fab fa-bootstrap"></i>HTML & CSS</span>
+								<span><i class="fab fa-bootstrap"></i>Bootstrap</span>
+								<span><i class="fab fa-bootstrap"></i>Ruby</span>
+								<span><i class="fab fa-bootstrap"></i>Rails</span>
+								<span><i class="fab fa-bootstrap"></i>Javascript</span>
+								<span><i class="fab fa-bootstrap"></i>React</span>
+								<span><i class="fab fa-bootstrap"></i>Redux</span>
+							</div>
+							<div class="st-panel-3__tools">
+								<h1>Tools</h1>
+								<span><i class="fab fa-bootstrap"></i>Git & Github</span>
+								<span><i class="fab fa-bootstrap"></i>Ubuntu</span>
+								<span><i class="fab fa-bootstrap"></i>VSCode</span>
+								<span><i class="fab fa-bootstrap"></i>Slack</span>
+								<span><i class="fab fa-bootstrap"></i>Chrome DevTools</span>
+								<span><i class="fab fa-bootstrap"></i>Basic Figma</span>
+								<span><i class="fab fa-bootstrap"></i>Basic Photoshop</span>
+							</div>
+						</div>
+					</section>
+					
+					<section class="st-panel st-color-2" id="st-panel-4">
+							<div class="full flex-center">
+								<div class="projects">
+									<div class="projects-upper">
+										<!-- <div class="project devtracker">
+											<h2>DevTracker</h2>
+											<div class="project__languages">
+												<div class="project__languages__each"></div>
+												<div class="links"></div>
+											</div>
+										</div>
+										<div class="project wavves">
+											<h2>DevTracker</h2>
+											<div class="project__languages">
+												<div class="project__languages__each"></div>
+												<div class="links"></div>
+											</div>
+										</div> -->
+										<div class="card transition">
+											<h2 class="transition">DevTracker</h2>
+											<p>Web App build with Ruby on Rails where developers can track their development</p>
+											<div id="modal-btn" class="cta-container transition"><span class="cta">VIEW</span></div>
+											<div class="card_circle transition"></div>
+										</div>
+										<div class="modal">
+											<div class="modal-content">
+												<span class="close-btn">&times;</span>
+												<div class="modal-content-img"><img src="images/DevTracker_screenshot.png" alt=""></div>
+												<h1>DevTracker</h1>
+												<p>Web App build with Ruby on Rails where developers can track their development, registering projects, adding time spent, and assigning languages and groups</p>
+												<div class="modal-content-buttons"><button><i class="fab fa-github"></i></button><i class="fas fa-external-link-alt"></i><button></button></div>
+											</div>
+										</div>
+										<div class="card-1 transition">
+											<h2 class="transition">DevTracker</h2>
+											<p>Web App build with Ruby on Rails where developers can track their development</p>
+											<div class="cta-container transition"><a href="#" class="cta">VIEW</a></div>
+											<div class="card_circle transition"></div>
+										</div>
+										<div class="card-2 transition">
+											<h2 class="transition">DevTracker</h2>
+											<p>Web App build with Ruby on Rails where developers can track their development</p>
+											<div class="cta-container transition"><a href="#" class="cta">VIEW</a></div>
+											<div class="card_circle transition"></div>
+										</div>
+										<div class="card-3 transition">
+											<h2 class="transition">DevTracker</h2>
+											<p>Web App build with Ruby on Rails where developers can track their development</p>
+											<div class="cta-container transition"><a href="#" class="cta">VIEW</a></div>
+											<div class="card_circle transition"></div>
+										</div>
+										<div class="card-4 transition">
+											<h2 class="transition">DevTracker</h2>
+											<p>Web App build with Ruby on Rails where developers can track their development</p>
+											<div class="cta-container transition"><a href="#" class="cta">VIEW</a></div>
+											<div class="card_circle transition"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</section>
+					
+					<section class="st-panel st-color-1" id="st-panel-5">
+						<div class="st-panel-5">
+							<div class="half flex-center">
+								<div class="contact-info">
+									<span><i class="fas fa-map-marker-alt"></i><a href="#">Caraguatatuba, Brazil</a></span>
+									<span><i class="fab fa-whatsapp"></i><a href="#">+55 35 9 9979 8438</a></span>
+									<span><i class="far fa-envelope"></i><a href="#">lucdelbel@gmail.com</a></span>
+								</div>
+							</div>
+							<div class="half flex-center">
+								<form
+									action="https://formspree.io/f/mrgoqljr"
+									method="POST"
+									class="form"
+								>
+									<label>
+										Your email:
+										<input type="text" name="_replyto">
+									</label>
+									<label>
+										Your message:
+										<textarea name="message"></textarea>
+									</label>
+
+									<button type="submit">Send</button>
+								</form>
+							</div>
+					  </div>
+					</section>
+
+				</div>
+     	</div>
+			
     </div>
-    <main>
-      <div>
-        <img class="first-bg" src="images/first-bg.png" alt="bg" />
-        <div class="welcome">
-          <h1>Lucas Delbel</h1>
-          <h5>Full Stack Web Developer</h5>
-          <p>
-            I love beauty, and there is a lot of beauty in efficiency and
-            effectiveness. Work is just a way of sharing our best talents to the
-            world, and make it a slightly better place in the process.
-          </p>
-          <div class="social-media"></div>
-        </div>
-      </div>
-      <div class="section first-gap">
-        <h2>Projects</h2>
-        <div class="projects">
-          <div class="project devtracker">
-            <h2>DevTracker</h2>
-            <div class="project__languages">
-              <div class="project__languages__each"></div>
-              <div class="links"></div>
-            </div>
-          </div>
-          <div class="project social">
-            <h2>Social Network</h2>
-            <div class="project__languages">
-              <div class="project__languages__each"></div>
-              <div class="links"></div>
-            </div>
-          </div>
-          <div class="project">
-            <h2>Ruby Linter</h2>
-            <div class="project__languages">
-              <div class="project__languages__each"></div>
-              <div class="links"></div>
-            </div>
-          </div>
-          <div class="project">
-            <h2>Tic Tac Toe</h2>
-            <div class="project__languages">
-              <div class="project__languages__each"></div>
-              <div class="links"></div>
-            </div>
-          </div>
-          <div class="project wavves">
-            <h2>Wavves - Music WebStore</h2>
-            <div class="project__languages">
-              <div class="project__languages__each"></div>
-              <div class="links"></div>
-            </div>
-          </div>
-          <div class="project newsweek">
-            <h2>Newsweek</h2>
-            <div class="project__languages">
-              <div class="project__languages__each"></div>
-              <div class="links"></div>
-            </div>
-          </div> 
-        </div>
-      </div>
-      <div class="section about">
-        <h2>About</h2>
-        <div class="my-2">
-          <p>Before I find out I love software development, I spent my time understanding 
-            how businesses work. In college I founded a Consulting Club, and had many experiences with
-            real consulting companies like the big McKinsey & Company, participating in a competition
-            where we should apply those concepts in a client company. Also I founded a company in a society,
-            which I chose to leave when I realized that what I really wanted to do is software development.
-            I love to understand and fulfill clients needs, and now that I have technology as my tool I feel
-            like there is no limit to what can be achieved. </p>
-            <button>Check my Resumé</button>
-
-            <h3 class="my-2">Skillset</h3>
-            <div class="skillset">
-              <h4>Languages</h4>
-              <div class="icons-bar">
-
-              </div>
-              <h4>Frameworks</h4>
-              <div class="icons-bar">
-                
-              </div>
-              <h4>Developer Tools</h4>
-              <div class="icons-bar">
-                
-              </div>
-            </div>
-        </div>
-      </div>
-      <div class="section">
-
-      </div>
-    </main>
-  </body>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script> 
 </html>

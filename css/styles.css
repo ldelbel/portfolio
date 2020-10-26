@@ -15,14 +15,42 @@ h5 {
   font-family: 'Roboto', sans-serif;
 }
 
+.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 0.3em 0;
+  z-index: 1;
+  background-color: #747474;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links__div {
+  width: 20%;
+  text-align: center;
+}
+
 button {
   margin-top: 2em;
   width: 8em;
   height: 3em;
   border-radius: 10em;
-  border: 3px solid #29339b;
+  border: 3px solid #272727;
   background-color: white;
-  color: #29339b;
+  color: #272727;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
@@ -32,8 +60,8 @@ button {
   right: 0;
   top: 0;
   height: 105vh;
-  width: 87%;
-  z-index: -1;
+  width: 100%;
+  background-color: #272727;
 }
 
 .first-gap {
@@ -62,7 +90,7 @@ button {
 .project {
   width: 24em;
   height: 18em;
-  background-color: #b6d6cc;
+  background-color: #ff652f;
   margin: 2em 3em 0 0;
   border-radius: 1em;
   padding: 1em;
@@ -106,7 +134,7 @@ button {
 }
 
 .skillset {
-  background-color: #b6d6cc;
+  background-color: #ff652f;
   border-radius: 1em;
   padding: 2em;
 }
@@ -164,8 +192,9 @@ button {
 
 .devtracker,
 .wavves,
-.social {
-  background-position: center;
+.social,
+.newsweek {
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
