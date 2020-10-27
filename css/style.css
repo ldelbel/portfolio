@@ -43,7 +43,7 @@
 
 /* "Fix" for percentage rounding: add a background bar pseudo element with the same color like the labels */
 .st-container:before {
-  content: '';
+  content: "";
   position: fixed;
   width: 100%;
   height: 34px;
@@ -52,23 +52,28 @@
   bottom: 0;
 }
 
-#st-control-1, #st-control-1 + a {
+#st-control-1,
+#st-control-1 + a {
   left: 0;
 }
 
-#st-control-2, #st-control-2 + a {
+#st-control-2,
+#st-control-2 + a {
   left: 20%;
 }
 
-#st-control-3, #st-control-3 + a {
+#st-control-3,
+#st-control-3 + a {
   left: 40%;
 }
 
-#st-control-4, #st-control-4 + a {
+#st-control-4,
+#st-control-4 + a {
   left: 60%;
 }
 
-#st-control-5, #st-control-5 + a {
+#st-control-5,
+#st-control-5 + a {
   left: 80%;
 }
 
@@ -81,7 +86,7 @@
 .st-container > input:checked:hover + a:after {
   bottom: 100%;
   border: solid transparent;
-  content: '';
+  content: "";
   height: 0;
   width: 0;
   position: absolute;
@@ -160,7 +165,7 @@
   color: white;
   text-shadow: 10px 2px 1px #2a7976;
   position: absolute;
-  font-size: 8rem;
+  font-size: 8em;
   font-weight: 900;
   width: auto;
   left: 7%;
@@ -299,7 +304,7 @@
   font-size: 1.2em;
   margin-left: 1.5em;
   z-index: 1;
-  font-family: 'Open-Sans',sans-serif;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .st-panel-2__div .text1 {
@@ -392,7 +397,7 @@
 
 .st-panel-3__skills {
   position: absolute;
-  left: 55em;
+  right: 30%;
   display: flex;
   flex-direction: column;
   height: 39em;
@@ -436,7 +441,7 @@
 
 .st-panel-3__tools {
   position: absolute;
-  left: 78em;
+  right: 5%;
   display: flex;
   flex-direction: column;
   height: 39em;
@@ -585,7 +590,8 @@
   box-shadow: 5px 3px 1px #ff652f;
 }
 
-.form input, .form textarea {
+.form input,
+.form textarea {
   width: 100%;
   font-size: 1.2em;
   box-shadow: 5px 3px 1px #ff652f;
@@ -743,10 +749,6 @@
   .st-container > a {
     font-size: 10px;
   }
-  [data-icon]:after {
-    font-size: 60px;
-    transform: rotate(-45deg) translateY(15%);
-  }
 }
 
 body {
@@ -755,7 +757,7 @@ body {
   /* FF3.6+ */
   /* IE10 */
   /* Opera 11.10+ */
-  background: linear-gradient(90deg, #2a7976 10%, #DD2476 90%);
+  background: linear-gradient(90deg, #2a7976 10%, #dd2476 90%);
   /* W3C */
 }
 
@@ -771,7 +773,7 @@ body {
   -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
   height: 400px;
-  left: 6em;
+  left: 6%;
   margin: auto;
   overflow: hidden;
   position: absolute;
@@ -786,7 +788,7 @@ body {
 }
 
 .card-1 {
-  left: 24em;
+  left: 24%;
 }
 
 .card-1 .card-circle {
@@ -794,15 +796,15 @@ body {
 }
 
 .card-2 {
-  left: 42em;
+  left: 42%;
 }
 
 .card-3 {
-  left: 60em;
+  left: 60%;
 }
 
 .card-4 {
-  left: 78em;
+  left: 78%;
 }
 
 .card:hover, .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover {
@@ -913,7 +915,7 @@ h2 {
   border-radius: 2px;
   color: #3487f7;
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 17px;
   font-weight: 400;
   height: 36px;
@@ -949,7 +951,8 @@ h2 {
   box-shadow: 5px 3px 1px #17252a;
 }
 
-.form input, .form textarea {
+.form input,
+.form textarea {
   width: 100%;
   font-size: 1.2em;
   box-shadow: 5px 3px 1px #17252a;
