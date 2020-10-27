@@ -810,7 +810,7 @@ body {
 .card:hover, .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover {
   height: 450px;
   width: 300px;
-  z-index: 10000;
+  z-index: 9999;
 }
 
 .card:hover .cta-container, .card-1:hover .cta-container, .card-2:hover .cta-container, .card-3:hover .cta-container, .card-4:hover .cta-container {

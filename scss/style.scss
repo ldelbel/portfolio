@@ -964,7 +964,7 @@ body {
 .card:hover {
   height: 450px;
   width: 300px;
-  z-index: 10000;
+  z-index: 9999;
 }
 .card:hover .cta-container {
   display: inline;
