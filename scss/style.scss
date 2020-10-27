@@ -10,8 +10,10 @@ $color4: #def2f1;
 $color5: #14a76c;
 $color6: #def2f1;
 
-a:active {
-    
+a:active,
+a:hover,
+a:focus {
+  outline: none;
 }
 
 .flex-center {
@@ -1150,13 +1152,14 @@ h2 {
   padding: 20px;
   margin: auto;
   width: 75%;
-  height: 85%;
+  height: 90%;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
 
   h1 {
+    margin-top: -0.05em;
     font-family: $playfair;
     font-size: 2em;
   }
@@ -1207,7 +1210,7 @@ h2 {
 }
 .close-btn {
   float: right;
-  color: lightgray;
+  color: rgb(250, 43, 43);
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;

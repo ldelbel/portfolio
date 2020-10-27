@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,200");
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@748;800;900&family=Titillium+Web:wght@600;700;900&display=swap");
+a:active,
+a:hover,
+a:focus {
+  outline: none;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -985,7 +991,7 @@ h2 {
   padding: 20px;
   margin: auto;
   width: 75%;
-  height: 85%;
+  height: 90%;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
@@ -993,6 +999,7 @@ h2 {
 }
 
 .modal-content h1 {
+  margin-top: -0.05em;
   font-family: "Playfair Display", serif;
   font-size: 2em;
 }
@@ -1042,7 +1049,7 @@ h2 {
 
 .close-btn, .close-btn1, .close-btn2, .close-btn3, .close-btn4 {
   float: right;
-  color: lightgray;
+  color: #fa2b2b;
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
