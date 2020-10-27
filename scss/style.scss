@@ -32,7 +32,7 @@ $color6: #def2f1;
 	bottom: 0px;
 	width: 20%;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 20px;
 	height: 34px;
 	line-height: 34px;
 }
@@ -878,7 +878,7 @@ $color6: #def2f1;
 .st-color [data-icon]:after {
 	color: $color2;
 }
-.st-color .st-deco {
+.st-color {
 	background: #fff;
 }
 .st-color h2 {
@@ -910,12 +910,6 @@ $color6: #def2f1;
 		font-size: 10px;
 	}
 	
-	.st-deco{
-		width: 120px;
-		height: 120px;
-		margin-left: -60px;
-	}
-	
 	[data-icon]:after {
 		font-size: 60px;
 		-webkit-transform: rotate(-45deg) translateY(15%);
@@ -939,13 +933,13 @@ body {   font-family: Helvetica, san-serif;
 .transition { transition: .3s cubic-bezier(.3, 0, 0, 1.3) }
 .card {
 	$distance: 6em;
-	
+	position: relative;
 	background-color: #fff;
 	bottom: 0;
 	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
 -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
 -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
-	height: 300px;
+	height: 400px;
 	left: $distance;
 	margin: auto;
 	overflow: hidden;
@@ -954,7 +948,7 @@ body {   font-family: Helvetica, san-serif;
 	width: 250px;
 	
 	p {
-		margin-top: 15em;
+		margin-top: 20em;
 		padding: 0 0.5em 0 0.5em;
 	}
 
@@ -970,10 +964,6 @@ body {   font-family: Helvetica, san-serif;
 	&-2 {
 		@extend .card;
 		left: $distance + 36em;
-
-		p {
-			margin-top: 13.5em;
-		}
 	}
 
 	&-3 {
@@ -998,7 +988,8 @@ body {   font-family: Helvetica, san-serif;
 .card:hover .card_circle {
     background-size: cover;
     border-radius: 0;
-    margin-top: -25em;
+		margin-top: -25em;
+		height: 250px;
 }
 .card:hover h2 {
     background: $color1;
@@ -1015,9 +1006,9 @@ body {   font-family: Helvetica, san-serif;
 	background-blend-mode: multiply;
 	background-size: cover;
 	border-radius: 50%;
-	height: 250px;
-	margin-left: -90px;
-	margin-top: -400px;
+	height: 350px;
+	margin-left: -100px;
+	margin-top: -500px;
 	position: absolute;
 	width: 450px;
 
@@ -1027,7 +1018,7 @@ body {   font-family: Helvetica, san-serif;
 		background-color: $color3;
 		background-blend-mode: multiply;
 		background-size: cover;
-		margin-top: -380px;
+		margin-top: -480px;
 	}
 
 	&2 {
@@ -1036,7 +1027,6 @@ body {   font-family: Helvetica, san-serif;
 		background-color: $color3;
 		background-blend-mode: multiply;
 		background-size: cover;
-		margin-top: -400px;	
 	}
 
 	&3 {
@@ -1053,7 +1043,7 @@ body {   font-family: Helvetica, san-serif;
 		background-color: $color3;
 		background-blend-mode: multiply;
 		background-size: cover;
-		margin-top: -380px;	
+		margin-top: -480px;	
 	}
 }
 
@@ -1062,7 +1052,7 @@ h2 {
     font-family: $playfair;
     font-size: 24px;
     font-weight: 500;
-    margin-top: 160px;
+    margin-top: 260px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -1137,9 +1127,6 @@ h2 {
   color: white;
   font-weight: 600;
 }
-
-
-
 
 // MODAL
 
@@ -1244,6 +1231,7 @@ h2 {
 .close-btn:hover {
   color: darkgray;
 }
+
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0} 
   to {top:0; opacity:1}
