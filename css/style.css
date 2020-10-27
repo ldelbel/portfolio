@@ -799,6 +799,7 @@ body {
 .card p, .card-1 p, .card-2 p, .card-3 p, .card-4 p {
   margin-top: 20em;
   padding: 0 0.5em 0 0.5em;
+  color: #2a7976;
 }
 
 .card-1 {
