@@ -915,7 +915,7 @@ body {
   transition: 0.3s cubic-bezier(0.3, 0, 0, 1.3);
 }
 .card {
-  $distance: 6%;
+  $distance: 3%;
   position: relative;
   background-color: #fff;
   bottom: 0;
@@ -938,7 +938,7 @@ body {
 
   &-1 {
     @extend .card;
-    left: $distance + 18%;
+    left: $distance + 19%;
 
     .card-circle {
       margin-left: -100px !important;
@@ -947,17 +947,17 @@ body {
 
   &-2 {
     @extend .card;
-    left: $distance + 36%;
+    left: $distance + 38%;
   }
 
   &-3 {
     @extend .card;
-    left: $distance + 54%;
+    left: $distance + 57%;
   }
 
   &-4 {
     @extend .card;
-    left: $distance + 72%;
+    left: $distance + 76%;
   }
 }
 
