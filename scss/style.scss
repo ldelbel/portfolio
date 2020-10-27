@@ -177,41 +177,18 @@ $color6: #def2f1;
 }
 
 /* Content elements */
-.st-deco{
-	width: 150px;
-	height: 150px;
-	position: absolute;
-	top: 0px;
-	left: 50%;
-	margin-left: -50px;
-	-webkit-transform: translateY(-50%) rotate(45deg);
-	-moz-transform: translateY(-50%) rotate(45deg);
-	-o-transform: translateY(-50%) rotate(45deg);
-	-ms-transform: translateY(-50%) rotate(45deg);
-	transform: translateY(-50%) rotate(45deg);
-}
-
-[data-icon]:after {
-  content: attr(data-icon);
-  color: #fff;
-	text-shadow: 1px 1px 1px $color3;
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	line-height: 230px;
-	text-align: center;
-	font-size: 40px;
-	top: 40%;
-	left: 40%;
-	margin: -100px 0 0 -100px;
-	-webkit-transform: rotate(-45deg) translateY(25%);
-	-moz-transform: rotate(-45deg) translateY(25%);
-	-o-transform: rotate(-45deg) translateY(25%);
-	-ms-transform: rotate(-45deg) translateY(25%);
-	transform: rotate(-45deg) translateY(25%);
-}
 
 #st-panel-1 {
+	a {
+		color: white;
+
+		position: absolute;
+		right: 2%;
+		font-size: 2.5em;
+		top: 2%;
+		text-shadow: 3px 1px 1px $color2;
+	}
+	
 	h2 {
 		font-family: $playfair;
 		color: white;
@@ -309,9 +286,9 @@ $color6: #def2f1;
 
 	.logo {
 		position: absolute;
-		width: 20em;
+		width: 25%;
 		top: 10em;
-		left: 70em;
+		right: 10%;
 	}
 }
 
