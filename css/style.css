@@ -535,7 +535,7 @@
 }
 
 .devtracker {
-  background-image: url("../images/DevTracker_screenshot.png");
+  background-image: url("../images/devtrackerscreenshot.png");
 }
 
 .wavves {
@@ -869,7 +869,7 @@ body {
 }
 
 .card_circle3 {
-  background: url("/images/Rubylinter_screenshot.png") no-repeat;
+  background: url("../images/Rubylinter_screenshot.png") no-repeat;
   background-color: #2a7976;
   background-blend-mode: multiply;
   background-size: cover;

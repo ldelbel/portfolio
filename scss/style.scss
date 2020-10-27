@@ -576,7 +576,7 @@ $color6: #def2f1;
 }
 
 .devtracker {
-  background-image: url("../images/DevTracker_screenshot.png");
+  background-image: url("../images/devtrackerscreenshot.png");
 }
 
 .wavves {
@@ -885,7 +885,7 @@ $color6: #def2f1;
   .st-container > a {
     font-size: 10px;
   }
- }
+}
 
 // CARD
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,200");
@@ -1019,7 +1019,7 @@ body {
 
   &3 {
     @extend .card_circle;
-    background: url("/images/Rubylinter_screenshot.png") no-repeat;
+    background: url("../images/Rubylinter_screenshot.png") no-repeat;
     background-color: $color3;
     background-blend-mode: multiply;
     background-size: cover;
