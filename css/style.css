@@ -403,7 +403,7 @@ a:focus {
 
 .st-panel-3__skills {
   position: absolute;
-  right: 30%;
+  right: 35%;
   display: flex;
   flex-direction: column;
   height: 39em;
@@ -719,10 +719,6 @@ a:focus {
   background: #def2f1;
 }
 
-.st-color [data-icon]:after {
-  color: #17252a;
-}
-
 .st-color {
   background: #fff;
 }
@@ -735,26 +731,6 @@ a:focus {
 .st-color p {
   color: #fff;
   color: rgba(255, 255, 255, 0.8);
-}
-
-@media screen and (max-width: 520px) {
-  .st-panel h2 {
-    font-size: 42px;
-  }
-  .st-panel p {
-    width: 90%;
-    left: 5%;
-    margin-top: 0;
-  }
-  .st-container > a {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .st-container > a {
-    font-size: 10px;
-  }
 }
 
 body {
@@ -785,6 +761,7 @@ body {
   position: absolute;
   top: 0;
   width: 250px;
+  z-index: 1;
 }
 
 .card p, .card-1 p, .card-2 p, .card-3 p, .card-4 p {
@@ -847,7 +824,7 @@ body {
 
 .card_circle, .card_circle1, .card_circle2, .card_circle3, .card_circle4 {
   background: url("../images/DevTracker_screenshot.png") no-repeat;
-  background-color: #2a7976;
+  background-color: #def2f1;
   opacity: 0.9;
   background-blend-mode: multiply;
   background-size: cover;
@@ -861,7 +838,7 @@ body {
 
 .card_circle1 {
   background: url("../images/Wavves_screenshot.png") no-repeat;
-  background-color: #2a7976;
+  background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;
   margin-top: -480px;
@@ -869,21 +846,21 @@ body {
 
 .card_circle2 {
   background: url("../images/Socialmedia_screenshot.png") no-repeat;
-  background-color: #2a7976;
+  background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;
 }
 
 .card_circle3 {
   background: url("../images/Rubylinter_screenshot.png") no-repeat;
-  background-color: #2a7976;
+  background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;
 }
 
 .card_circle4 {
   background: url("../images/Newsweek_screenshot.png") no-repeat;
-  background-color: #2a7976;
+  background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;
   margin-top: -480px;
@@ -1071,5 +1048,180 @@ h2 {
   to {
     top: 0;
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #st-panel-1 .logo {
+    top: 10%;
+  }
+  .st-panel-3__skills {
+    right: 50%;
+  }
+  .card:not(:hover), .card-1:not(:hover), .card-2:not(:hover), .card-3:not(:hover), .card-4:not(:hover) {
+    font-size: 0.8em;
+  }
+  .card:not(:hover) p, .card-1:not(:hover) p, .card-2:not(:hover) p, .card-3:not(:hover) p, .card-4:not(:hover) p {
+    margin-top: 27em;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #st-panel-1 .logo {
+    top: 30%;
+  }
+  #st-panel-1 h2 {
+    font-size: 6em;
+    line-height: 0.7em;
+    left: 0;
+  }
+  #st-panel-1 p {
+    top: 75%;
+    line-height: 0.8em;
+    left: 0;
+  }
+  #st-panel-1 .rect-l {
+    display: none;
+  }
+  .st-panel-2__div__line {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 0 0 2em 1em;
+  }
+  .st-panel-2__div .icon {
+    margin-left: 1em;
+  }
+  .st-panel-2__div p {
+    margin-left: 1%;
+  }
+  .st-panel-2__div .text1 {
+    top: 14em;
+    width: 90%;
+    color: #17252a;
+  }
+  .st-panel-2__div .text2 {
+    top: 23em;
+    width: 90%;
+    color: #17252a;
+  }
+  .st-panel-2__div .triangle {
+    top: 40em;
+    left: 15em;
+  }
+  .st-panel-2__div .resume-triangle {
+    top: 40em;
+    left: 26.9em;
+  }
+  .st-panel-2__div .resume-div {
+    top: 20em;
+    left: 7.5em;
+  }
+  .st-panel-2__div .social-links {
+    top: 40em;
+    width: 15em;
+    padding-right: 0;
+  }
+  .st-panel-3 {
+    font-size: 0.8em;
+  }
+  .st-panel-3__skills {
+    height: 43em;
+  }
+  .st-panel-3__tools {
+    height: 43em;
+  }
+  .card:not(:hover) h2, .card-1:not(:hover) h2, .card-2:not(:hover) h2, .card-3:not(:hover) h2, .card-4:not(:hover) h2 {
+    transform: rotate(270deg);
+    bottom: 4em;
+    left: -4em;
+    height: 2em;
+    text-align: start;
+  }
+  .card:not(:hover) p, .card-1:not(:hover) p, .card-2:not(:hover) p, .card-3:not(:hover) p, .card-4:not(:hover) p {
+    color: white;
+  }
+  .card-3:hover {
+    left: 50%;
+  }
+  .card-4:hover {
+    left: 50%;
+  }
+  .modal-content-img {
+    overflow: hidden;
+  }
+  .modal-content p {
+    width: 100%;
+  }
+  .modal p, .modal1 p, .modal2 p, .modal3 p, .modal4 p {
+    font-size: 0.9em;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .st-panel-3 {
+    font-size: 0.6em;
+  }
+  .st-panel-3__skills {
+    height: 50em;
+  }
+  .st-panel-3__tools {
+    height: 50em;
+  }
+  .card h2, .card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
+    font-size: 2em;
+  }
+  .card:hover, .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover {
+    left: 10%;
+  }
+  .card-1:hover {
+    left: 10%;
+  }
+  .card-2:hover {
+    left: 10%;
+  }
+  .card-3:hover {
+    left: 10%;
+  }
+  .card-4:hover {
+    left: 10%;
+  }
+  .modal-content-buttons {
+    font-size: 0.7em;
+  }
+  .modal-content-buttons div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .modal-content-buttons .langs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .modal-content-buttons button {
+    margin-right: 0;
+  }
+  .modal2 h1 {
+    font-size: 1.6em;
+  }
+  .big {
+    font-size: 0.8em !important;
+    margin-right: 0 !important;
+  }
+  .st-container > a {
+    font-size: 13px;
+  }
+  .frame {
+    opacity: 0.5;
+  }
+  .self {
+    opacity: 0.3;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .st-container > a {
+    font-size: 10px;
   }
 }

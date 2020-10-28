@@ -8,20 +8,17 @@ $color2: #17252a;
 $color3: hsl(178, 48%, 32%);
 $color4: #def2f1;
 $color5: #14a76c;
-$color6: #def2f1;
 
 a:active,
 a:hover,
 a:focus {
   outline: none;
 }
-
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .st-container {
   position: absolute;
   width: 100%;
@@ -30,7 +27,6 @@ a:focus {
   left: 0;
   font-family: $playfair;
 }
-
 .st-container > input,
 .st-container > a {
   position: fixed;
@@ -41,12 +37,10 @@ a:focus {
   height: 34px;
   line-height: 34px;
 }
-
 .st-container > input {
   opacity: 0;
   z-index: 1000;
 }
-
 .st-container > a {
   z-index: 10;
   font-weight: 700;
@@ -66,37 +60,30 @@ a:focus {
   z-index: 9;
   bottom: 0;
 }
-
 #st-control-1,
 #st-control-1 + a {
   left: 0;
 }
-
 #st-control-2,
 #st-control-2 + a {
   left: 20%;
 }
-
 #st-control-3,
 #st-control-3 + a {
   left: 40%;
 }
-
 #st-control-4,
 #st-control-4 + a {
   left: 60%;
 }
-
 #st-control-5,
 #st-control-5 + a {
   left: 80%;
 }
-
 .st-container > input:checked + a,
 .st-container > input:checked:hover + a {
   background: $color3;
 }
-
 .st-container > input:checked + a:after,
 .st-container > input:checked:hover + a:after {
   bottom: 100%;
@@ -111,15 +98,14 @@ a:focus {
   left: 50%;
   margin-left: -20px;
 }
-
 .st-container > input:hover + a {
   background: $color3;
 }
-
 .st-container > input:hover + a:after {
   border-bottom-color: $color3;
 }
 
+// PANELS 
 .st-scroll,
 .st-panel {
   position: relative;
@@ -301,7 +287,6 @@ a:focus {
     right: 10%;
   }
 }
-
 #st-panel-2 {
   .text {
     width: 50%;
@@ -316,7 +301,6 @@ a:focus {
     top: -1.1em;
   }
 }
-
 .st-panel-2__div {
   position: relative;
 
@@ -431,7 +415,6 @@ a:focus {
     margin-top: -2.7em;
   }
 }
-
 .st-panel-3 {
   position: relative;
   display: flex;
@@ -441,13 +424,13 @@ a:focus {
 
   &__skills {
     position: absolute;
-    right: 30%;
+    right: 35%;
     display: flex;
     flex-direction: column;
     height: 39em;
     width: 20em;
     padding: 10em 1.5em 3em 1.5em;
-    background-color: $color6;
+    background-color: $color4;
     border-radius: 1.5em;
     box-shadow: 5px 3px 1px $color3;
 
@@ -491,7 +474,7 @@ a:focus {
     height: 39em;
     width: 20em;
     padding: 10em 1.5em 1.5em 1.5em;
-    background-color: $color6;
+    background-color: $color4;
     border-radius: 1.5em;
     box-shadow: 5px 3px 1px $color3;
 
@@ -538,12 +521,10 @@ a:focus {
     left: -0.2em;
   }
 }
-
 .full {
   width: 100vw;
   height: 100vh;
 }
-
 .projects {
   &-upper {
     width: 100vw;
@@ -555,7 +536,6 @@ a:focus {
     display: flex;
   }
 }
-
 .project {
   width: 24em;
   height: 18em;
@@ -580,19 +560,15 @@ a:focus {
   background-repeat: no-repeat;
   background-blend-mode: multiply;
 }
-
 .devtracker {
   background-image: url("../images/devtrackerscreenshot.png");
 }
-
 .wavves {
   background-image: url("../images/Wavves_screenshot.png");
 }
-
 .newsweek {
   background-image: url("../images/Newsweek_screenshot.png");
 }
-
 .links {
   position: absolute;
   bottom: 0;
@@ -604,7 +580,6 @@ a:focus {
   width: 100%;
   background-color: white;
 }
-
 .frame {
   position: absolute;
   right: -26em;
@@ -614,7 +589,6 @@ a:focus {
   z-index: 0;
   transform: rotate(30deg);
 }
-
 .self {
   position: absolute;
   right: -6em;
@@ -623,7 +597,6 @@ a:focus {
   filter: grayscale(10%);
   opacity: 0.8;
 }
-
 .form {
   display: flex;
   flex-direction: column;
@@ -651,7 +624,6 @@ a:focus {
     font-weight: 600;
   }
 }
-
 .st-panel-4 {
   .water {
     position: absolute;
@@ -662,7 +634,6 @@ a:focus {
     top: -0.6em;
   }
 }
-
 .st-panel-5 {
   display: flex;
   justify-content: space-between;
@@ -686,7 +657,6 @@ a:focus {
     top: -0.6em;
   }
 }
-
 .contact-info {
   position: absolute;
   left: 5em;
@@ -709,7 +679,6 @@ a:focus {
     color: $color3;
   }
 }
-
 .half {
   width: 50vw;
   height: 100vh;
@@ -736,7 +705,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @-moz-keyframes moveDown {
   0% {
     -moz-transform: translateY(-40px);
@@ -747,7 +715,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @-o-keyframes moveDown {
   0% {
     -o-transform: translateY(-40px);
@@ -758,7 +725,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @-ms-keyframes moveDown {
   0% {
     -ms-transform: translateY(-40px);
@@ -769,7 +735,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @keyframes moveDown {
   0% {
     transform: translateY(-40px);
@@ -792,7 +757,6 @@ a:focus {
   -ms-animation: moveUp 0.6s ease-in-out 0.2s backwards;
   animation: moveUp 0.6s ease-in-out 0.2s backwards;
 }
-
 @-webkit-keyframes moveUp {
   0% {
     -webkit-transform: translateY(40px);
@@ -803,7 +767,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @-moz-keyframes moveUp {
   0% {
     -moz-transform: translateY(40px);
@@ -814,7 +777,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @-o-keyframes moveUp {
   0% {
     -o-transform: translateY(40px);
@@ -825,7 +787,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @-ms-keyframes moveUp {
   0% {
     -ms-transform: translateY(40px);
@@ -836,7 +797,6 @@ a:focus {
     opacity: 1;
   }
 }
-
 @keyframes moveUp {
   0% {
     transform: translateY(40px);
@@ -852,13 +812,8 @@ a:focus {
 .st-color-1 {
   background: $color1;
 }
-
 .st-color-2 {
-  background: $color6;
-}
-
-.st-color [data-icon]:after {
-  color: $color2;
+  background: $color4;
 }
 .st-color {
   background: #fff;
@@ -870,27 +825,6 @@ a:focus {
 .st-color p {
   color: #fff;
   color: rgba(255, 255, 255, 0.8);
-}
-
-@media screen and (max-width: 520px) {
-  .st-panel h2 {
-    font-size: 42px;
-  }
-
-  .st-panel p {
-    width: 90%;
-    left: 5%;
-    margin-top: 0;
-  }
-
-  .st-container > a {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .st-container > a {
-    font-size: 10px;
-  }
 }
 
 // CARD
@@ -935,6 +869,7 @@ body {
   position: absolute;
   top: 0;
   width: 250px;
+  z-index: 1;
 
   p {
     margin-top: 20em;
@@ -995,7 +930,7 @@ body {
 }
 .card_circle {
   background: url("../images/DevTracker_screenshot.png") no-repeat;
-  background-color: $color3;
+  background-color: $color4;
   opacity: 0.9;
   background-blend-mode: multiply;
   background-size: cover;
@@ -1009,7 +944,7 @@ body {
   &1 {
     @extend .card_circle;
     background: url("../images/Wavves_screenshot.png") no-repeat;
-    background-color: $color3;
+    background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
     margin-top: -480px;
@@ -1018,7 +953,7 @@ body {
   &2 {
     @extend .card_circle;
     background: url("../images/Socialmedia_screenshot.png") no-repeat;
-    background-color: $color3;
+    background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -1026,7 +961,7 @@ body {
   &3 {
     @extend .card_circle;
     background: url("../images/Rubylinter_screenshot.png") no-repeat;
-    background-color: $color3;
+    background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -1034,13 +969,12 @@ body {
   &4 {
     @extend .card_circle;
     background: url("../images/Newsweek_screenshot.png") no-repeat;
-    background-color: $color3;
+    background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
     margin-top: -480px;
   }
 }
-
 h2 {
   color: $color2;
   font-family: $playfair;
@@ -1052,7 +986,6 @@ h2 {
   width: 100%;
   z-index: 9999;
 }
-
 .cta-container {
   display: none;
   position: absolute;
@@ -1094,7 +1027,6 @@ h2 {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .form {
   position: absolute;
   display: flex;
@@ -1108,14 +1040,12 @@ h2 {
   border-radius: 1em;
   box-shadow: 5px 3px 1px $color2;
 }
-
 .form input,
 .form textarea {
   width: 100%;
   font-size: 1.2em;
   box-shadow: 5px 3px 1px$color2;
 }
-
 .form button {
   height: 2.5em;
   border: none;
@@ -1145,7 +1075,6 @@ h2 {
     @extend .modal;
   }
 }
-
 .modal-content {
   position: relative;
   background-color: white;
@@ -1228,7 +1157,6 @@ h2 {
 .close-btn:hover {
   color: darkgray;
 }
-
 @-webkit-keyframes animatetop {
   from {
     top: -300px;
@@ -1247,5 +1175,246 @@ h2 {
   to {
     top: 0;
     opacity: 1;
+  }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  #st-panel-1 { 
+    .logo {
+      top: 10%;
+    }
+  }
+
+  .st-panel-3 {
+    &__skills {
+      right: 50%;
+    }
+  }
+
+  .card:not(:hover) {
+    font-size: 0.8em;
+
+    p {
+      margin-top: 27em;
+    }
+  }
+}
+@media screen and (max-width: 780px) {
+  #st-panel-1 { 
+    .logo {
+      top: 30%;
+    }
+    
+    h2 {
+      font-size: 6em;
+      line-height: 0.7em;
+      left: 0;
+    }
+    
+    p {
+      top: 75%;
+      line-height: 0.8em;
+      left: 0;
+    }
+
+    .rect-l {
+      display: none;
+    }
+  }
+
+  .st-panel-2__div {
+    
+    &__line {
+      display: flex;
+      align-items: center;
+      font-size: 1.5em;
+      margin: 0 0 2em 1em;
+    }
+
+    .icon {
+      margin-left: 1em;
+    }
+
+    p {
+      margin-left: 1%;
+    }
+
+    .text1 {
+      top: 14em;
+      width: 90%;
+      color: $color2;
+    }
+
+    .text2 {
+      top: 23em;
+      width: 90%;
+      color: $color2;
+    }
+
+    .triangle {
+      top: 40em;
+      left: 15em;
+    }
+
+    .resume-triangle {
+      top: 40em;
+      left: 26.9em;
+    }
+
+    .resume-div {
+      top: 20em;
+      left:7.5em;
+    }
+
+    .social-links {
+      top: 40em;
+      width: 15em;
+      padding-right: 0;
+    }
+  }
+
+  .st-panel-3 {
+    font-size: 0.8em;
+
+    &__skills {
+      height: 43em;
+    }
+
+    &__tools {
+      height: 43em;
+    }
+  }
+
+  .card:not(:hover) {
+    h2 {
+      transform: rotate(270deg);
+      bottom: 4em;
+      left: -4em;
+      height: 2em;
+      text-align: start;
+    }
+
+    p {
+      color: white;
+    }    
+  }
+
+  .card {
+    &-3:hover {
+      left:50%;
+    }
+
+    &-4:hover {
+      left:50%;
+    }
+  }
+
+  .modal-content-img {
+    overflow: hidden;
+  }
+
+  .modal-content {
+    p {
+      width: 100%;
+    }
+  }
+
+  .modal {
+    p {
+      font-size: 0.9em;
+      margin-right: 0;
+    }
+  }
+
+}
+@media screen and (max-width: 520px) {
+  
+  .st-panel-3 {
+    font-size: 0.6em;
+
+    &__skills {
+      height: 50em;
+    }
+
+    &__tools {
+      height: 50em;
+    }
+  }
+
+  .card {
+    h2 {
+      font-size: 2em;
+    }
+    &:hover {
+      left: 10%;
+      }
+    &-1:hover {
+    left: 10%;
+    }
+    &-2:hover {
+      left: 10%;
+      }
+    &-3:hover {
+      left: 10%;
+    }
+    &-4:hover {
+      left: 10%;
+    }
+  }
+  
+  .modal-content-buttons {
+    font-size: 0.7em;
+
+    div:last-child {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .langs {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    button {
+      margin-right: 0;
+    }
+  }
+
+  .modal2 {
+    h1 {
+      font-size: 1.6em;
+    }
+
+  }
+
+  // .st-panel p {
+  //   width: 90%;
+  //   left: 5%;
+  //   margin-top: 0;
+  // }
+
+  .big {
+     font-size: 0.8em !important;
+      margin-right: 0 !important;
+  }
+
+  .st-container > a {
+    font-size: 13px;
+  }
+
+  .frame {
+    opacity: 0.5;
+  }
+
+  .self {
+    opacity: 0.3;
+  }
+}
+@media screen and (max-width: 360px) {
+  .st-container > a {
+    font-size: 10px;
   }
 }
