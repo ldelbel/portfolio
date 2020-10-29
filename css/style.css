@@ -1065,16 +1065,17 @@ h2 {
     margin-top: 27em;
   }
   .form {
-    top: 13em;
-    height: 17em;
+    top: 12em;
+    height: 15em;
     right: 10%;
   }
   .contact-info {
-    top: -1em;
+    top: -1.5em;
     left: 2em;
   }
   .st-panel-5 .floor {
-    top: 2.5em;
+    top: 2em;
+    height: 16em;
   }
 }
 
@@ -1178,8 +1179,22 @@ h2 {
     font-size: 0.9em;
     margin-right: 0;
   }
-  .water {
-    font-size: 15em;
+  .contact-info {
+    font-size: 1.7em;
+    top: -0.5em;
+    left: 2em;
+  }
+  .st-panel-5 .floor {
+    top: 2.5em;
+    width: 27em;
+    height: 14em;
+  }
+  .form {
+    top: 12em;
+  }
+  .st-panel-4 .water,
+  .st-panel-5 .water {
+    font-size: 10em;
   }
 }
 
@@ -1244,7 +1259,7 @@ h2 {
   }
   .form {
     width: 80%;
-    height: 18em;
+    height: 17em;
     top: 10em;
   }
   .contact-info {
@@ -1256,6 +1271,10 @@ h2 {
     top: 2.5em;
     width: 90%;
     height: 12em;
+  }
+  .st-panel-4 .water,
+  .st-panel-5 .water {
+    font-size: 6em;
   }
 }
 
