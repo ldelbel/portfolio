@@ -1056,13 +1056,25 @@ h2 {
     top: 10%;
   }
   .st-panel-3__skills {
-    right: 50%;
+    right: 52%;
   }
   .card:not(:hover), .card-1:not(:hover), .card-2:not(:hover), .card-3:not(:hover), .card-4:not(:hover) {
     font-size: 0.8em;
   }
   .card:not(:hover) p, .card-1:not(:hover) p, .card-2:not(:hover) p, .card-3:not(:hover) p, .card-4:not(:hover) p {
     margin-top: 27em;
+  }
+  .form {
+    top: 13em;
+    height: 17em;
+    right: 10%;
+  }
+  .contact-info {
+    top: -1em;
+    left: 2em;
+  }
+  .st-panel-5 .floor {
+    top: 2.5em;
   }
 }
 
@@ -1089,47 +1101,56 @@ h2 {
     font-size: 1.5em;
     margin: 0 0 2em 1em;
   }
+  .st-panel-2__div__line span {
+    margin-top: 0.5em;
+  }
   .st-panel-2__div .icon {
     margin-left: 1em;
+    font-size: 1.4em;
   }
   .st-panel-2__div p {
-    margin-left: 1%;
+    margin-left: 5%;
   }
   .st-panel-2__div .text1 {
-    top: 14em;
+    top: 11em;
     width: 90%;
     color: #17252a;
   }
   .st-panel-2__div .text2 {
-    top: 23em;
+    top: 20em;
     width: 90%;
     color: #17252a;
   }
   .st-panel-2__div .triangle {
-    top: 40em;
-    left: 15em;
+    top: 36em;
+    left: 12em;
   }
   .st-panel-2__div .resume-triangle {
-    top: 40em;
-    left: 26.9em;
+    top: 36em;
+    left: 21.9em;
   }
   .st-panel-2__div .resume-div {
-    top: 20em;
-    left: 7.5em;
+    top: 18em;
+    width: 5em;
+    left: 6em;
   }
   .st-panel-2__div .social-links {
-    top: 40em;
-    width: 15em;
+    top: 36em;
+    width: 12em;
     padding-right: 0;
   }
   .st-panel-3 {
     font-size: 0.8em;
   }
   .st-panel-3__skills {
+    margin-top: 12em;
     height: 43em;
+    right: 51%;
   }
   .st-panel-3__tools {
+    margin-top: 12em;
     height: 43em;
+    right: 0;
   }
   .card:not(:hover) h2, .card-1:not(:hover) h2, .card-2:not(:hover) h2, .card-3:not(:hover) h2, .card-4:not(:hover) h2 {
     transform: rotate(270deg);
@@ -1156,6 +1177,9 @@ h2 {
   .modal p, .modal1 p, .modal2 p, .modal3 p, .modal4 p {
     font-size: 0.9em;
     margin-right: 0;
+  }
+  .water {
+    font-size: 15em;
   }
 }
 
@@ -1217,6 +1241,21 @@ h2 {
   }
   .self {
     opacity: 0.3;
+  }
+  .form {
+    width: 80%;
+    height: 18em;
+    top: 10em;
+  }
+  .contact-info {
+    font-size: 1.3em;
+    top: 0;
+    left: 2em;
+  }
+  .st-panel-5 .floor {
+    top: 2.5em;
+    width: 90%;
+    height: 12em;
   }
 }
 

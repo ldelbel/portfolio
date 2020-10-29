@@ -550,7 +550,6 @@ a:focus {
     text-shadow: 1px 1px 3px black;
   }
 }
-
 .devtracker,
 .wavves,
 .social,
@@ -901,7 +900,6 @@ body {
     left: $distance + 76%;
   }
 }
-
 .card:hover {
   height: 450px;
   width: 300px;
@@ -1178,8 +1176,6 @@ h2 {
   }
 }
 
-
-
 @media screen and (max-width: 1100px) {
   #st-panel-1 { 
     .logo {
@@ -1189,7 +1185,7 @@ h2 {
 
   .st-panel-3 {
     &__skills {
-      right: 50%;
+      right: 52%;
     }
   }
 
@@ -1198,6 +1194,23 @@ h2 {
 
     p {
       margin-top: 27em;
+    }
+  }
+
+  .form {
+    top: 13em;
+    height: 17em;
+    right: 10%;
+  }
+
+  .contact-info {
+    top: -1em;
+    left: 2em;
+  }
+
+  .st-panel-5 {
+    .floor {
+      top: 2.5em;
     }
   }
 }
@@ -1231,46 +1244,52 @@ h2 {
       align-items: center;
       font-size: 1.5em;
       margin: 0 0 2em 1em;
+
+      span {
+        margin-top: 0.5em;
+      }
     }
 
     .icon {
       margin-left: 1em;
+      font-size: 1.4em;
     }
 
     p {
-      margin-left: 1%;
+      margin-left: 5%;
     }
 
     .text1 {
-      top: 14em;
+      top: 11em;
       width: 90%;
       color: $color2;
     }
 
     .text2 {
-      top: 23em;
+      top: 20em;
       width: 90%;
       color: $color2;
     }
 
     .triangle {
-      top: 40em;
-      left: 15em;
+      top: 36em;
+      left: 12em;
     }
 
     .resume-triangle {
-      top: 40em;
-      left: 26.9em;
+      top: 36em;
+      left: 21.9em;
     }
 
     .resume-div {
-      top: 20em;
-      left:7.5em;
+      top: 18em;
+      width: 5em;
+      left: 6em;
     }
 
     .social-links {
-      top: 40em;
-      width: 15em;
+      top: 36em;
+      width: 12em;
       padding-right: 0;
     }
   }
@@ -1279,11 +1298,15 @@ h2 {
     font-size: 0.8em;
 
     &__skills {
+      margin-top: 12em;
       height: 43em;
+      right: 51%;
     }
 
     &__tools {
+      margin-top: 12em;
       height: 43em;
+      right: 0;
     }
   }
 
@@ -1328,7 +1351,11 @@ h2 {
     }
   }
 
+  .water {
+    font-size: 15em;  
+  }
 }
+
 @media screen and (max-width: 520px) {
   
   .st-panel-3 {
@@ -1411,6 +1438,26 @@ h2 {
 
   .self {
     opacity: 0.3;
+  }
+
+  .form { 
+    width: 80%;
+    height: 18em;
+    top: 10em;
+  }
+
+  .contact-info {
+    font-size: 1.3em;
+    top: 0;
+    left: 2em;
+  }
+
+  .st-panel-5 {
+    .floor {
+      top: 2.5em;
+      width: 90%;
+      height: 12em;
+    }
   }
 }
 @media screen and (max-width: 360px) {
