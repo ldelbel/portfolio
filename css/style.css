@@ -541,15 +541,15 @@ a:focus {
 }
 
 .devtracker {
-  background-image: url("../images/devtrackerscreenshot.png");
+  background-image: url("../images/DevTracker_screenshot-min.png");
 }
 
 .wavves {
-  background-image: url("../images/Wavves_screenshot.png");
+  background-image: url("../images/Wavves_screenshot-min.png");
 }
 
 .newsweek {
-  background-image: url("../images/Newsweek_screenshot.png");
+  background-image: url("../images/Newsweek_screenshot-min.png");
 }
 
 .links {
@@ -823,7 +823,7 @@ body {
 }
 
 .card_circle, .card_circle1, .card_circle2, .card_circle3, .card_circle4 {
-  background: url("../images/DevTracker_screenshot.png") no-repeat;
+  background: url("../images/DevTracker_screenshot-min.png") no-repeat;
   background-color: #def2f1;
   opacity: 0.9;
   background-blend-mode: multiply;
@@ -837,7 +837,7 @@ body {
 }
 
 .card_circle1 {
-  background: url("../images/Wavves_screenshot.png") no-repeat;
+  background: url("../images/Wavves_screenshot-min.png") no-repeat;
   background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;
@@ -845,21 +845,21 @@ body {
 }
 
 .card_circle2 {
-  background: url("../images/Socialmedia_screenshot.png") no-repeat;
+  background: url("../images/Socialmedia_screenshot-min.png") no-repeat;
   background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;
 }
 
 .card_circle3 {
-  background: url("../images/Rubylinter_screenshot.png") no-repeat;
+  background: url("../images/Rubylinter_screenshot-min.png") no-repeat;
   background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;
 }
 
 .card_circle4 {
-  background: url("../images/Newsweek_screenshot.png") no-repeat;
+  background: url("../images/Newsweek_screenshot-min.png") no-repeat;
   background-color: #def2f1;
   background-blend-mode: multiply;
   background-size: cover;

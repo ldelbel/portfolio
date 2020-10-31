@@ -560,13 +560,13 @@ a:focus {
   background-blend-mode: multiply;
 }
 .devtracker {
-  background-image: url("../images/devtrackerscreenshot.png");
+  background-image: url("../images/DevTracker_screenshot-min.png");
 }
 .wavves {
-  background-image: url("../images/Wavves_screenshot.png");
+  background-image: url("../images/Wavves_screenshot-min.png");
 }
 .newsweek {
-  background-image: url("../images/Newsweek_screenshot.png");
+  background-image: url("../images/Newsweek_screenshot-min.png");
 }
 .links {
   position: absolute;
@@ -927,7 +927,7 @@ body {
   margin-top: 300px;
 }
 .card_circle {
-  background: url("../images/DevTracker_screenshot.png") no-repeat;
+  background: url("../images/DevTracker_screenshot-min.png") no-repeat;
   background-color: $color4;
   opacity: 0.9;
   background-blend-mode: multiply;
@@ -941,7 +941,7 @@ body {
 
   &1 {
     @extend .card_circle;
-    background: url("../images/Wavves_screenshot.png") no-repeat;
+    background: url("../images/Wavves_screenshot-min.png") no-repeat;
     background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
@@ -950,7 +950,7 @@ body {
 
   &2 {
     @extend .card_circle;
-    background: url("../images/Socialmedia_screenshot.png") no-repeat;
+    background: url("../images/Socialmedia_screenshot-min.png") no-repeat;
     background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
@@ -958,7 +958,7 @@ body {
 
   &3 {
     @extend .card_circle;
-    background: url("../images/Rubylinter_screenshot.png") no-repeat;
+    background: url("../images/Rubylinter_screenshot-min.png") no-repeat;
     background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
@@ -966,7 +966,7 @@ body {
 
   &4 {
     @extend .card_circle;
-    background: url("../images/Newsweek_screenshot.png") no-repeat;
+    background: url("../images/Newsweek_screenshot-min.png") no-repeat;
     background-color: $color4;
     background-blend-mode: multiply;
     background-size: cover;
