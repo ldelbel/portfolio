@@ -7,6 +7,11 @@ a:focus {
   outline: none;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
