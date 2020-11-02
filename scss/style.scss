@@ -1385,7 +1385,30 @@ h2 {
 }
 
 @media screen and (max-width: 520px) {
-  
+  #st-panel-1 { 
+    .logo {
+      top: 30%;
+    }
+    
+    h1 {
+      font-size: 6em;
+      line-height: 0.9em;
+      left: 0;
+    }
+    
+    p {
+      font-size: 3em;
+      top: 70%;
+      line-height: 0.8em;
+      left: 0;
+    }
+
+    .rect-l {
+      display: none;
+    }
+  }
+
+
   .st-panel-3 {
     font-size: 0.6em;
 
@@ -1489,6 +1512,7 @@ h2 {
     }
   } 
 }
+
 @media screen and (max-width: 360px) {
   .st-container > a {
     font-size: 10px;
