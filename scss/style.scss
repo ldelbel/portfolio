@@ -1408,6 +1408,48 @@ h2 {
     }
   }
 
+  .st-panel-2__div {
+    
+    &__line {
+      display: flex;
+      align-items: center;
+      font-size: 1em;
+      margin: 0 0 2em 0.5em;
+
+      span {
+        font-size: 2em;
+        margin-top: 0.5em;
+      }
+    }
+
+    p {
+      font-size: 1em;
+      margin-left: 5%;
+    }
+
+    .triangle {
+      top: 30em;
+      left: 12em;
+    }
+
+    .resume-triangle {
+      top: 30em;
+      left: 21.9em;
+    }
+
+    .resume-div {
+      top: 15em;
+      width: 5em;
+      left: 6em;
+    }
+
+    .social-links {
+      top: 30em;
+      width: 12em;
+      padding-right: 0;
+    }
+  }
+
 
   .st-panel-3 {
     font-size: 0.6em;

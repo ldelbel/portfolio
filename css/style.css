@@ -1220,6 +1220,38 @@ h2 {
   #st-panel-1 .rect-l {
     display: none;
   }
+  .st-panel-2__div__line {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin: 0 0 2em 0.5em;
+  }
+  .st-panel-2__div__line span {
+    font-size: 2em;
+    margin-top: 0.5em;
+  }
+  .st-panel-2__div p {
+    font-size: 1em;
+    margin-left: 5%;
+  }
+  .st-panel-2__div .triangle {
+    top: 30em;
+    left: 12em;
+  }
+  .st-panel-2__div .resume-triangle {
+    top: 30em;
+    left: 21.9em;
+  }
+  .st-panel-2__div .resume-div {
+    top: 15em;
+    width: 5em;
+    left: 6em;
+  }
+  .st-panel-2__div .social-links {
+    top: 30em;
+    width: 12em;
+    padding-right: 0;
+  }
   .st-panel-3 {
     font-size: 0.6em;
   }
