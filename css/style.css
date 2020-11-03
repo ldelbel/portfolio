@@ -301,7 +301,7 @@ a:focus {
 }
 
 .st-panel-2__div__line a {
-  color: #3aafa9;
+  color: #2a7976;
 }
 
 .st-panel-2__div i {
@@ -320,14 +320,14 @@ a:focus {
 .st-panel-2__div .text1 {
   position: absolute;
   width: 40em;
-  color: #2a7976;
+  color: #17252a;
 }
 
 .st-panel-2__div .text2 {
   position: absolute;
   top: 14em;
   width: 40em;
-  color: #2a7976;
+  color: #17252a;
 }
 
 .st-panel-2__div .triangle {
