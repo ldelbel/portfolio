@@ -648,9 +648,9 @@ a:focus {
     background-color: $color2;
     box-shadow: 5px 5px 1px white;
     width: 40em;
-    height: 20em;
+    height: 21em;
     position: absolute;
-    top: 15em;
+    top: 14em;
   }
 
   .water {
@@ -665,10 +665,10 @@ a:focus {
 .contact-info {
   position: absolute;
   left: 5em;
-  top: 6em;
+  top: 5em;
   font-size: 2em;
   width: 15em;
-  height: 15em;
+  height: 17em;
   display: flex;
   flex-direction: column;
   padding: 3em 0 5em 0;
@@ -682,6 +682,18 @@ a:focus {
     margin-right: 1em;
     font-size: 1.5em;
     color: $color3;
+  }
+
+  &-social {
+
+    i {
+      color: white;
+      text-shadow: 5px 3px 1px $color3;
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+
+
   }
 }
 .half {
@@ -1004,6 +1016,7 @@ h2 {
   -o-transition: 0.2s ease-out;
   -webkit-border-radius: 2px;
   -webkit-transition: 0.2s ease-out;
+  -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 2px solid #3487f7;
   border-radius: 2px;
@@ -1023,13 +1036,13 @@ h2 {
 }
 .cta:hover {
   background-color: $color1;
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #fff;
   cursor: pointer;
   -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .form {
   position: absolute;
@@ -1261,7 +1274,7 @@ h2 {
       margin-left: 1em;
       font-size: 1.4em;
     }
-
+    
     p {
       margin-left: 5%;
     }
